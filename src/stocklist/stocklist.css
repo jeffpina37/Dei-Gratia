@@ -1,0 +1,46 @@
+.stocklist-container{
+    width: 100%;
+    height: auto;
+}
+
+.stocklist-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 10% 0;
+}
+
+.stocklist-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width: 24%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .stocklist-row{
+        flex-direction: column;
+    }
+
+    .stocklist-wrapper{
+        width: 100%;
+     
+    }
+    .card{
+        width: 100%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+    }
+   
+}

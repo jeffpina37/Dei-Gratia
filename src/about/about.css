@@ -1,0 +1,27 @@
+.about-container{
+    width: 100%;
+    padding: 15% 0;
+}
+
+.about-text{
+    width: 75%;
+    margin: 0 auto;
+    line-height: 3rem;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text h1{
+    padding-bottom: 40px;
+}
+
+
+
+.about-photo{
+    display: block;
+    width: 97%;
+    margin: 4% auto;
+    height: auto;
+}

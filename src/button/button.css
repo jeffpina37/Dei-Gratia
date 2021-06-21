@@ -1,0 +1,54 @@
+.btn-container{
+    width: 100%;
+    height: 700px;
+    margin: 20px 0;
+    display: block;
+    flex-direction: column;
+    background-image: url("../sub.jpg");
+    margin-top: 100px ;
+    margin-bottom: 100px;
+}
+
+.subscribe-button{
+    width: 110px;
+    height: 40px;
+}
+
+.btn-wrapper{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-padding{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    background-color: rgba(117, 117, 117, 0.041);
+    color: rgb(255, 255, 255);
+}
+.btn-padding2{
+    width: 100%;
+    margin: 20px 0px 20px 13px;
+    background-color: rgba(117, 117, 117, 0.041);
+    color: rgb(255, 255, 255);
+}
+
+.sub-button{
+    margin-top: 1.3rem;
+    font-size: 14px;
+    padding: 12px 10px;
+    background-color: #1a8504f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    align-items: center;
+    color: whitesmoke;
+}
+.sub-button:hover{
+    background-color: #28d106;
+}
